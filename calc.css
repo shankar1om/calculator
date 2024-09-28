@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #F6F6F6;
+    font-size: 32px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 28%;
+    height: 65%;
+    border: 1px solid black;
+    display: flex;
+    padding: 1%;
+    flex-wrap: wrap;
+    background-color: #E88D48;
+}
+
+.input-field {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(54, 69, 79);
+    overflow: hidden;
+}
+
+.all-button-container {
+    width: 100%;
+    height: 80%;
+    margin-top: 1%;
+    padding: 3%;
+    display: flex;
+    background-color:rgb(54, 69, 79);
+}
+
+.num-button-container {
+    width: 75%;
+    height: 100%;
+    border: 1px solid#E88D48;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+.operator-buttons {
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin-left: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.num-buttons {
+    width: 31%;
+    height: 23%;
+    border: 1px solid black;
+    margin: 2px;
+    margin-left: 3px;
+    background-color: #90a098;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.operator-button{
+    width: 94%;
+    height: 31%;
+    border: 1px solid black;
+    margin: 2px;
+    margin-left: 3px;
+    background-color:  #90a098;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#eval-btn{
+    width: 31%;
+    height: 23%;
+    border: 1px solid black;
+    margin: 2px;
+    margin-left: 3px;
+    background-color: #90a098;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.clear-button{
+    width: 31%;
+    height: 23%;
+    border: 1px solid black;
+    margin: 2px;
+    margin-left: 3px;
+    background-color: #90a098;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+@media (max-width:360px) and (max-height:740px) {
+    .container{
+        width:100%;
+    }
+    body{
+        padding:3%;
+    }
+}
